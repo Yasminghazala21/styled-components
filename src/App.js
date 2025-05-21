@@ -5,7 +5,7 @@ const App = () => (
   <>
     <Heading>Hello World</Heading>
     <CustomButton type="button">Click</CustomButton>
-    <CustomButton type="button" outline>
+    <CustomButton type="button" onClick={() => alert("clicked")} outline>
       Click
     </CustomButton>
   </>
