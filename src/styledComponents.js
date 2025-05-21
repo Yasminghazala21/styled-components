@@ -14,3 +14,11 @@ export const CustomButton = styled.button`
   border: 2px solid #0070c1;
   background-color: ${props => (props.outline ? '#ffffff' : '#0070c1')};
 `
+
+/*
+export const OutlineButton = styled(CustomButton)`
+  color: #0070c1;
+  background-color: #ffffff;
+  font-family: "Open sans";
+`;
+*/
