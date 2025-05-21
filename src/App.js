@@ -8,6 +8,7 @@ const App = () => (
     <CustomButton type="button" onClick={() => alert("clicked")} outline>
       Click
     </CustomButton>
+  <CustomButton as="a" href="#" outline>Click</CustomButton>
   </>
 )
 
